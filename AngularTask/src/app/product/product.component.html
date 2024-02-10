@@ -1,6 +1,8 @@
-<p>product works!</p>
+<!-- <TextBox Text="{Binding Path=Text, Mode=TwoWay}"></TextBox> -->
 <div>
-
+  <input type="text" name="value" [(ngModel)]="value">
+  <p> Care to tell us your name? Hello {{value}}</p>
+  <button (click)="clearValue()">Clear</button>
     <table class="table">
         <thead>
           <tr>

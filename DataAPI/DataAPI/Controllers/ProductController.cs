@@ -16,12 +16,12 @@ namespace DataAPI.Controllers
         public IEnumerable<Product> GetProducts()
         {
             List<Product> products = new List<Product>() {
-                new Product(){Price=10,Quantity=5, ProductName="Product A" },
-                new Product(){Price=10,Quantity=5, ProductName="Product B" },
-                new Product(){Price=10,Quantity=5, ProductName="Product C" },
-                new Product(){Price=10,Quantity=5, ProductName="Product D" },
-                new Product(){Price=10,Quantity=5, ProductName="Product E" },
-                new Product(){Price=10,Quantity=5, ProductName="Product F" }
+                new Product(){Price=10,Quantity=50, ProductName="Product A" },
+                new Product(){Price=11,Quantity=72, ProductName="Product B" },
+                new Product(){Price=12,Quantity=89, ProductName="Product C" },
+                new Product(){Price=13,Quantity=34, ProductName="Product D" },
+                new Product(){Price=14,Quantity=53, ProductName="Product E" },
+                new Product(){Price=15,Quantity=63, ProductName="Product F" }
             };
             return products;
         }

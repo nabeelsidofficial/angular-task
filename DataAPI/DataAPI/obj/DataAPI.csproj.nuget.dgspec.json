@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\Projects\\Development\\Angular\\Task1\\DataAPI\\DataAPI\\DataAPI.csproj": {}
+    "D:\\Work\\Projects\\Development\\Git\\AngularTask\\DataAPI\\DataAPI\\DataAPI.csproj": {}
   },
   "projects": {
-    "D:\\Work\\Projects\\Development\\Angular\\Task1\\DataAPI\\DataAPI\\DataAPI.csproj": {
+    "D:\\Work\\Projects\\Development\\Git\\AngularTask\\DataAPI\\DataAPI\\DataAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\Projects\\Development\\Angular\\Task1\\DataAPI\\DataAPI\\DataAPI.csproj",
+        "projectUniqueName": "D:\\Work\\Projects\\Development\\Git\\AngularTask\\DataAPI\\DataAPI\\DataAPI.csproj",
         "projectName": "DataAPI",
-        "projectPath": "D:\\Work\\Projects\\Development\\Angular\\Task1\\DataAPI\\DataAPI\\DataAPI.csproj",
+        "projectPath": "D:\\Work\\Projects\\Development\\Git\\AngularTask\\DataAPI\\DataAPI\\DataAPI.csproj",
         "packagesPath": "C:\\Users\\Nabeel\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\Projects\\Development\\Angular\\Task1\\DataAPI\\DataAPI\\obj\\",
+        "outputPath": "D:\\Work\\Projects\\Development\\Git\\AngularTask\\DataAPI\\DataAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

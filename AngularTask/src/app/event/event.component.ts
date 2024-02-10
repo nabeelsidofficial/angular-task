@@ -12,7 +12,7 @@ export class EventComponent {
   count: number = 0;
 
   fun(): void {
-    this.test = 'You are my hero!';
+    this.test = 'You are awesome! keep up the good work.';
     this.count++;
     alert('Test message :'+this.test+' Count :'+this.count);
   }
