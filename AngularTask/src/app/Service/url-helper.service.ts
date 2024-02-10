@@ -14,7 +14,7 @@ export class UrlHelperService {
     let server = "";
     switch (env) {
         case "LOCALDEV": {
-            server = "https://localhost:7158/";
+            server = "https://localhost:7158";
             break;
         }
         case "TEST": {
@@ -34,5 +34,7 @@ export class UrlHelperService {
 }
 
 // Here you will define all the API endpoints your app will use and 'this.Server ' will contain the proper host API server url at runtime for each environment.
-public Product = this.Server + '/Product';
+private Product = this.Server + '/Product';
+public GetProduct = this.Product +'/GetProducts';
+public UpdateProduct = this.Product +'/UpdateProduct';
 }
