@@ -22,11 +22,21 @@ export class ProductComponent {
   clearValue() {
     this.value="";
   }
+  onContentChanged(event : any)
+  {
+    debugger
+    let test = ""
+    this.productService.updateProducts(1,test).subscribe(response => {
+      debugger
+      this.data = response;
+      console.log(this.data);
+    }); 
 
+  }
 ngOnInit()
 {
   this.productService.getProducts().subscribe(response => {
-    debugger
+  
     this.data = response;
     console.log(this.data);
   }); 

@@ -14,7 +14,8 @@
         <tbody>
             <!-- <ng-container > -->
                 <tr *ngFor="let product of data">
-                    <td>{{product.productName}}</td>
+                    <!-- <td>{{product.productName}}</td> -->
+                    <td contenteditable="true" [textContent]="product.productName"   (input)="onContentChanged($event)"></td>
                     <td>{{product.price}}</td>
                     <td>{{product.quantity}}</td>
                   </tr>
