@@ -20,8 +20,8 @@ getProducts(): Observable<Product[]> {
   return this.http.get<Product[]>(this.BaseUrl+this.getUrl)
 }
 updateProducts(id: number,productName: string): Observable<Product[]> {
-  const body = { id: 1,
-    productName : "test" };
+  const body = { id: id,
+    productName : productName };
     const httpOptions = {
       headers: new HttpHeaders({'Content-Type': 'application/json'})
     }

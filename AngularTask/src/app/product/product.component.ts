@@ -25,8 +25,9 @@ export class ProductComponent {
   onContentChanged(event : any)
   {
     debugger
-    let test = ""
-    this.productService.updateProducts(1,test).subscribe(response => {
+    let name=event.target.innerHTML;
+    let id=event.target.id;
+    this.productService.updateProducts(id,name).subscribe(response => {
       debugger
       this.data = response;
       console.log(this.data);

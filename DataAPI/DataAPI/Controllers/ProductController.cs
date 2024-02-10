@@ -9,16 +9,7 @@ namespace DataAPI.Controllers
     {
         private readonly ILogger<ProductController> _logger;
 
-        private List<Product> products = null;
-        public ProductController(ILogger<ProductController> logger)
-        {
-            _logger = logger;
-            GenerateProducts();
-        }
-
-        private void GenerateProducts()
-        {
-            products = new List<Product>() {
+        private List<Product> products = new List<Product>() {
                 new Product(){Id= 0,Price=10,Quantity=50, ProductName="Product A" },
                 new Product(){Id= 1,Price=11,Quantity=72, ProductName="Product B" },
                 new Product(){Id= 2,Price=12,Quantity=89, ProductName="Product C" },
@@ -26,6 +17,9 @@ namespace DataAPI.Controllers
                 new Product(){Id = 4, Price=14,Quantity=53, ProductName="Product E" },
                 new Product(){Id = 5, Price=15,Quantity=63, ProductName="Product F" }
             };
+        public ProductController(ILogger<ProductController> logger)
+        {
+            _logger = logger;
         }
 
         [HttpGet]
